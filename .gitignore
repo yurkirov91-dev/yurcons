@@ -1,0 +1,29 @@
+# Материалы клиентов исключены из обычного добавления в Git
+01_Cases/**
+!01_Cases/.gitkeep
+02_MyPractice/**
+!02_MyPractice/Approved/
+!02_MyPractice/Approved/.gitkeep
+!02_MyPractice/Style/
+!02_MyPractice/Style/.gitkeep
+!02_MyPractice/Incoming/
+!02_MyPractice/Approved/
+!02_MyPractice/Approved/.gitkeep
+!02_MyPractice/Style/
+!02_MyPractice/Style/.gitkeep
+!02_MyPractice/Incoming/.gitkeep
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.log
+__pycache__/
+
+# Локальные инструменты и входящие документы
+.local/
+00_Inbox/
+05_Tasks/**
+!05_Tasks/README.md
+!05_Tasks/INDEX.md
+!05_Tasks/TASK_TEMPLATE.md
